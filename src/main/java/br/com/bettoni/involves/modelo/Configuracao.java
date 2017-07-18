@@ -14,7 +14,7 @@ public class Configuracao {
 
 	public Configuracao(String tipoArquivo, String caminhoArquivo) {
 		this.tipoArquivo = tipoArquivo;
-		this.caminhoArquivo = tipoArquivo;
+		this.caminhoArquivo = caminhoArquivo;
 	}
 	
 	public Configuracao(Properties configuracaoes) {
